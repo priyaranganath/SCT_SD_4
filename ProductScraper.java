@@ -4,7 +4,7 @@ import java.net.URL;
 
 public class ProductScraper {
     public static void main(String[] args) throws Exception {
-        // Example website (replace with an actual product listing page)
+        // Example website 
         URL url = new URL("https://example.com");
 
         BufferedReader br = new BufferedReader(new InputStreamReader(url.openStream()));
